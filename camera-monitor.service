@@ -1,0 +1,7 @@
+[Unit]
+Description=Pi Camera Monitor
+[Service]
+Type=simple
+ExecStart=/usr/bin/python2 /home/pi/camera.py
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,7 @@
+[Unit]
+Description=Pi Light Service
+[Service]
+Type=simple
+ExecStart=/usr/bin/python2 /home/pi/LightStuff.py
+[Install]
+WantedBy=multi-user.target
